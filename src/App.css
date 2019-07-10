@@ -10,13 +10,13 @@
 
 .App-header {
   background: linear-gradient(to right,
-    rgb(247, 242, 255), /*VIOLET: wavelength: 380-450nm // frequency 680–790 THz	// */
-    rgb(242, 242, 255), /*BLUE: wavelength: 450-485nm // frequency 620–680 THz	// */
-    rgb(242, 255, 255), /*CYAN: wavelength: 485-500nm // frequency 600–620 THz	// */
-    rgb(242, 255, 242), /*GREEN: wavelength: 500-565nm // frequency 530–600 THz	// */
-    rgb(255, 255, 242), /*YELLOW: wavelength: 565-590nm // frequency 510–530 THz	// */
-    rgb(255, 247, 242), /*ORNGE: wavelength: 590-625nm // frequency 480–510 THz	// */
-    rgb(255, 242, 242) /*VIOLET: wavelength: 625-740nm // frequency 405–480 THz	// */
+    rgb(247, 242, 255), /*VIOLET: wavelength: 380-450nm // frequency 680–790 THz*/
+    rgb(242, 242, 255), /*BLUE: wavelength: 450-485nm // frequency 620–680 THz*/
+    rgb(242, 255, 255), /*CYAN: wavelength: 485-500nm // frequency 600–620 THz*/
+    rgb(242, 255, 242), /*GREEN: wavelength: 500-565nm // frequency 530–600 THz*/
+    rgb(255, 255, 242), /*YELLOW: wavelength: 565-590nm // frequency 510–530 THz*/
+    rgb(255, 247, 242), /*ORNGE: wavelength: 590-625nm // frequency 480–510 THz*/
+    rgb(255, 242, 242) /*VIOLET: wavelength: 625-740nm // frequency 405–480 THz*/
   );
   min-height: 100vh;
   display: flex;
