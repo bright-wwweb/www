@@ -34,5 +34,3 @@ workflows:
             branches:
               only:
                 - master
-                - circle-ci
-                - gh-pages
