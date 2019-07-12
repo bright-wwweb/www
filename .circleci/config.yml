@@ -20,8 +20,8 @@ jobs:
       - run: # build amd deploy
           name: Run deploy
           command: |
-            git config --global user.email "builds@circleci.com"
-            git config --global user.name "CircleCI"
+            git config --global user.email "dviramontes@gmail.com"
+            git config --global user.name "dviramontes"
             npm run deploy
 
 workflows:
