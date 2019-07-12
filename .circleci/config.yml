@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build_test_deploy:
     docker:
@@ -23,13 +23,12 @@ jobs:
 
 workflows:
   version: 2
-  Build Test and Deploy:
+  build_test_deploy:
     jobs:
       - build_test_deploy:
-          name: build
+          name: deploy
           filters:
             branches:
               only:
                 - master
                 - circle-ci
-                - foobar
