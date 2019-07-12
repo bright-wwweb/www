@@ -32,3 +32,4 @@ workflows:
               only:
                 - master
                 - circle-ci
+                - foobar
