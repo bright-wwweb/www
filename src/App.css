@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple%7CPress+Start+2P%7CSatisfy%7CShare+Tech+Mono&display=swap');
+
+/* FONTS
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Press Start 2P', monospace;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Satisfy', cursive;
+*/
+
 .App {
   text-align: center;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .App-logo {
@@ -29,6 +39,18 @@
 
 .App-link {
   color: #bb47fb;
+}
+.App-link:hover {
+  font-family: 'Homemade Apple', cursive;
+  text-transform: lowercase;
+}
+/* Temporary: Replaces "THE BRIGHT WEB" 
+with "coming soon" on hover */
+.App-link:hover:after {
+  content: attr(data-hover);
+}
+.App-link:hover span {
+  display: none;
 }
 
 @keyframes App-logo-spin {
