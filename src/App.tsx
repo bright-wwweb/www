@@ -8,7 +8,7 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <b className="App-link" data-hover="coming soon"> 
+        <b className="App-link" data-hover="coming soon">
           <span>THE BRIGHT WEB</span>
         </b>
       </header>
