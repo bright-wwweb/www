@@ -24,6 +24,8 @@ jobs:
             git config --global user.name "dviramontes"
             npm run build
             cp CNAME build
+            # cp circle-ci config to skip the build for gh-pages branch
+            cp .circle-ci build
             ./node_modules/.bin/gh-pages -t -d build
 
 workflows:
