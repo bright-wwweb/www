@@ -24,7 +24,7 @@ jobs:
             git config --global user.name "dviramontes"
             npm run build
             cp CNAME build
-            gh-pages -t -d build
+            ./node_modules/.bin/gh-pages -t -d build
 
 workflows:
   version: 2
