@@ -22,7 +22,9 @@ jobs:
           command: |
             git config --global user.email "dviramontes@gmail.com"
             git config --global user.name "dviramontes"
-            npm run deploy
+            npm run build
+            cp CNAME build
+            gh-pages -t -d build
 
 workflows:
   version: 2
